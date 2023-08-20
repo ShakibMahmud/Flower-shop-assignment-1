@@ -1,0 +1,277 @@
+
+body{
+    width: 1920px;
+    margin: 0 auto;
+    font-family: sans-serif;
+   } 
+
+ .header{
+    background-color:rgb(135,206,250) ;
+    display: flex;
+    height: 800px;
+    gap: 220px;
+ } 
+
+ .header-title{
+    width:700px ;
+    font-size: 65px;
+    font-weight: 800;
+    color: #272727;
+    line-height: normal;
+    font-style: normal;
+    
+    
+  
+ }  
+
+ .header-description{
+    width: 630px;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 35px;
+    margin-top: -25px;
+
+ }
+
+ .header-button{
+    width: 147px;
+    height: 58px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:white;
+    color: rgb(255,165,0); 
+    font-weight: 540;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    transition-duration: 0.25s ;
+   
+   
+ }
+
+.header-image{
+    height: 750px;
+    margin-top: 50px;
+   
+}
+
+.header-info{
+    margin-left: 200px;
+    margin-top: 120px;
+    text-align:left ;
+}
+
+.header-button:hover{
+   
+   background-color:rgb(255,165,0) ;
+   color: white;
+   cursor: pointer;
+
+}
+
+.flower-info{
+   text-align: center;
+   width: 600px;
+   margin-left: 655px;
+   margin-top: 170px;
+}
+
+.flower-info-header{
+   font-size: 40px;
+   color: #272727;
+   font-weight: bold;
+}
+
+
+.flower-description{
+   font-size: 18px;
+   color: rgba(39, 39, 39, 0.60);
+   width: 595px;
+   text-align: center;
+}
+
+.flowers{
+  display: flex;
+  gap: 30px;
+  margin-left: 220px;
+  margin-top: 80px;
+
+  
+
+}
+
+.flower-top-1,.flower-top-2,.flower-top-3{
+   width: 464px;
+   height: 538px;
+   flex-shrink: 0;
+   border-radius: 300px 300px 4px 4px;
+   text-align: center;
+   
+}
+
+.flower-top-1{
+
+background-color:#fec8e3ff;
+
+ 
+}
+
+.flower-top-2{
+
+background-color: rgba(5, 151, 160, 0.15);
+}
+
+.flower-top-3{
+background-color:rgba(71, 125, 17, 0.15);
+
+}
+
+.flower-1{
+   margin-top: 118px;
+   height: 420px;
+   transition-duration: 1s ;
+
+}
+
+.flower-2{
+   margin-top: 125px;
+   transition-duration: 1s ;
+
+}
+
+.flower-3{
+   margin-top: 67px;
+   transition-duration: 1s ;
+
+}
+
+.flower-1:hover{
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+   cursor: pointer;
+}
+
+.flower-2:hover{
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+   cursor: pointer;
+
+}
+
+.flower-3:hover{
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+   cursor: pointer;
+}
+
+.pink-flower-tree-2{
+   margin-top: 66px;
+}
+
+.pink-flower-tree>u>a{
+  text-decoration: none;
+  color: #272727;
+  font-size: 19px;
+  font-style: normal;
+
+}
+
+.pink-flower-tree-2>u>a{
+  text-decoration: none;
+  color: #272727;
+  font-size: 19px;
+  font-style: normal;
+  
+}
+
+.pink-flower-tree>u>a:hover{
+   background-color: #daf0f1ff;
+}
+
+.pink-flower-tree-2>u>a:hover{
+   background-color: #daf0f1ff;
+}
+
+.extra-section-start{
+   margin-top: 200px;
+   margin-left: 820px;
+   font-weight: 800;
+   margin-bottom: -30px;
+
+}
+
+.extra-section-title{
+   font-size: 40px;
+   color: #272727;
+   
+}
+
+.extra-section-paragraph{
+   font-size: 18px;
+   font-style: normal;
+   color: rgba(39, 39, 39, 0.60);
+   margin-top: -10px;
+   margin-left: -100px;
+}
+
+.extra-section{
+   height: 380px;
+   width: 1452px;
+   background-color: #daf0f1ff;
+   border: none;
+   border-radius: 2px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   margin-left: 220px;
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+  
+  
+}
+
+.extra-section-content-1,.extra-section-content-2,.extra-section-content-3,.extra-section-content-4{
+   width: 270px;
+   height: 270px;
+   background-color:white;
+   margin-top: 60px;
+   border: none;
+   text-align: center;
+   box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+   transition-duration: 0.15s;
+   
+   
+}
+
+.extra-section-content-1:hover{
+   
+   background-color:#cc2663ff ;
+   cursor: pointer;
+   
+}
+
+.extra-section-content-2:hover{
+   cursor: pointer;
+   background-color:#fac1ebff ;
+}
+
+.extra-section-content-3:hover{
+   background-color:#f37da1ff ;
+   cursor: pointer;
+
+}
+
+.extra-section-content-4:hover{
+   background-color:#b28df8ff ;
+   cursor: pointer;
+
+}
+
+.extra-image{
+   width: 220px;
+   height: 220px;
+   margin-top: 20px;
+}
